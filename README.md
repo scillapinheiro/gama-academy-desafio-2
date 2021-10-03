@@ -19,7 +19,8 @@
 
 <h1 align="center">Desafio #2</h1>
 
-Definir algumas regras e funcionalidades de negócio para um site de catálogo de produtos usando Lógica de Programação e Javascript.
+Definir algumas regras e funcionalidades de negócio para um site de catálogo de produtos usando Lógica de Programação e Javascript. As entregas foram divididas em 2 etapas:
+#### :heavy_check_mark: Etapa #1:
 1. Quantidade total de itens em estoque;
 2. Quantidade total de itens em destaque;
 3. Quantidade total de itens disponíveis;
@@ -30,6 +31,7 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 8. Produto de estoque mais valioso;
 9. Produto em estoque menos valioso;
 10. Valor do ticket médio dos produtos da empresa;
+#### :heavy_check_mark: Etapa 2:
 11. Somatória de itens por departamento;
 12. Valor total do inventário por departamento;
 13. Ticket médio por departamento;
@@ -39,7 +41,7 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 
 ## :green_heart: Desenvolvedores
 
-[<img src="" width=115> <br> <sub>  </sub>]() | [<img src="" width=115> <br> <sub>  </sub>]() |
+[<img src="" width=115> <br> <sub>Isabella Cammerer</sub>]() | [<img src="" width=115> <br> <sub>Tamires Paula</sub>]() |
 | :---: | :---: |
 
 ## :rocket: Tecnologias
@@ -97,6 +99,6 @@ exercicio14();
 exercicio15();
 ```
 
-## :pencil: Licença
+## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
