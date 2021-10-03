@@ -50,7 +50,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 ## :arrow_forward: Executando o projeto
 1. Abra o arquivo ``index.html`` no navegador;
-2. No console do navegador, execute os seguintes comandos parar ver a resposta de cada exercício:
+2. No console do navegador, execute os seguintes comandos para ver a resposta de cada exercício:
 ```
 exercicio1();
 ```
