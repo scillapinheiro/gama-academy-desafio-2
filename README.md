@@ -20,7 +20,7 @@
 <h1 align="center">Desafio #2</h1>
 
 Definir algumas regras e funcionalidades de negócio para um site de catálogo de produtos usando Lógica de Programação e Javascript. As entregas foram divididas em 2 etapas:
-#### :heavy_check_mark: Etapa #1:
+#### :heavy_check_mark: Etapa 1:
 1. Quantidade total de itens em estoque;
 2. Quantidade total de itens em destaque;
 3. Quantidade total de itens disponíveis;
