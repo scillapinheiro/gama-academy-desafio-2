@@ -30,7 +30,7 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 7. Produto mais barato da loja;
 8. Produto de estoque mais valioso;
 9. Produto em estoque menos valioso;
-10. Valor do ticket médio dos produtos da empresa;
+10. Valor do ticket médio dos produtos da empresa.
 #### :heavy_check_mark: Etapa 2:
 11. Somatória de itens por departamento;
 12. Valor total do inventário por departamento;
