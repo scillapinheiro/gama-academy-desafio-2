@@ -51,52 +51,57 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## :arrow_forward: Executando o projeto
-1. Abra o arquivo ``index.html`` no navegador;
-2. No console do navegador, execute os seguintes comandos para ver a resposta de cada exercício:
+1. Pelo console do navegador, abrindo o arquivo ``index.html`` OU pelo CMD abra a pasta ``desafio-2`` e execute o Node.js e abra o arquivo javascript:
 ```
-exercicio1();
+> node
+> .load solucao.js
 ```
+
+2. Para ver a resposta de cada exercício, digite uma por vez as seguintes linhas:
 ```
-exercicio2();
-```
-```
-exercicio3();
-```
-```
-exercicio4();
+> exercicio1();
 ```
 ```
-exercicio5();
+> exercicio2();
 ```
 ```
-exercicio6();
+> exercicio3();
 ```
 ```
-exercicio7();
+> exercicio4();
 ```
 ```
-exercicio8();
+> exercicio5();
 ```
 ```
-exercicio9();
+> exercicio6();
 ```
 ```
-exercicio10();
+> exercicio7();
 ```
 ```
-exercicio11();
+> exercicio8();
 ```
 ```
-exercicio12();
+> exercicio9();
 ```
 ```
-exercicio13();
+> exercicio10();
 ```
 ```
-exercicio14();
+> exercicio11();
 ```
 ```
-exercicio15();
+> exercicio12();
+```
+```
+> exercicio13();
+```
+```
+> exercicio14();
+```
+```
+> exercicio15();
 ```
 
 ## :memo: Licença
