@@ -41,7 +41,7 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 
 ## :green_heart: Desenvolvedores
 
-[<img src="" width=115> <br> <sub>Isabella Cammerer</sub>]() | [<img src="" width=115> <br> <sub>Tamires Paula</sub>]() |
+[<img src="" width=115> <br> <sub>Isabella Cammerer</sub>]() | [<img src="https://avatars.githubusercontent.com/u/78106596?v=4" width=115> <br> <sub>Tamires Paula</sub>](https://github.com/tspaulameneses) |
 | :---: | :---: |
 
 ## :rocket: Tecnologias
