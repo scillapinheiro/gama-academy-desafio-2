@@ -1099,7 +1099,7 @@ function exercicio1(){
         let produto = listaProdutos[i];
         totalProdutos = totalProdutos + produto.qtdEstoque;
     }
-    console.log("Total de produtos em estoque = " + totalProdutos);
+    console.log("Total de produtos em estoque = "+totalProdutos);
 }
 
 function exercicio2(){
@@ -1110,7 +1110,7 @@ function exercicio2(){
             totalEmDestaque = totalEmDestaque + produto.qtdEstoque;
         }
     }
-    console.log("Total de produtos em destaque = " + totalEmDestaque);
+    console.log("Total de produtos em destaque = "+totalEmDestaque);
 }
 
 function exercicio3(){
@@ -1121,7 +1121,7 @@ function exercicio3(){
             totalDisponivel = totalDisponivel + produto.qtdEstoque;
         }
     }
-    console.log("Total de produtos disponíveis = " + totalDisponivel);
+    console.log("Total de produtos disponíveis = "+totalDisponivel);
 }
 
 function exercicio4(){
@@ -1141,7 +1141,7 @@ function exercicio5(){
         let produto = listaProdutos[i];
         totalInventario = totalInventario + produto.qtdEstoque * produto.preco;
     }
-    console.log("Valor total do inventário da empresa é R$ "+totalInventario);
+    console.log("Valor total do inventário da empresa é "+totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio6(){
@@ -1152,7 +1152,7 @@ function exercicio6(){
             produtoMaisCaro = produto;
         }
     }
-    console.log("Produto mais caro da empresa é o "+produtoMaisCaro.descricao+ " cujo preço é R$ "+produtoMaisCaro.preco);
+    console.log("Produto mais caro da empresa é o "+produtoMaisCaro.descricao+", cujo valor é "+produtoMaisCaro.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio7(){
@@ -1163,7 +1163,7 @@ function exercicio7(){
             produtoMaisBarato = produto;
         }
     }
-    console.log("Produto mais barato da empresa é o "+produtoMaisBarato.descricao+ " cujo preço é R$ "+produtoMaisBarato.preco);
+    console.log("Produto mais barato da empresa é o "+produtoMaisBarato.descricao+", cujo valor é "+produtoMaisBarato.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio8(){
@@ -1176,8 +1176,7 @@ function exercicio8(){
             }
         }
     }
-    console.log("Produto mais valioso é do produto "+produtoMaisValioso.descricao + 
-    " cujo valor está estimado em R$ "+(produtoMaisValioso.preco*produtoMaisValioso.qtdEstoque));
+    console.log("Produto de estoque mais valioso é "+produtoMaisValioso.descricao+", cujo valor é "+(produtoMaisValioso.preco*produtoMaisValioso.qtdEstoque).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio9(){
@@ -1190,8 +1189,7 @@ function exercicio9(){
             }
         }        
     }
-    console.log("O estoque mais barato é do produto "+estoqueMaisBarato.descricao + 
-                " cujo valor está estimado em R$ "+(estoqueMaisBarato.preco*estoqueMaisBarato.qtdEstoque));
+    console.log("O em estoque menos valioso é "+estoqueMaisBarato.descricao+", cujo valor é "+(estoqueMaisBarato.preco*estoqueMaisBarato.qtdEstoque).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio10(){
@@ -1207,7 +1205,7 @@ function exercicio10(){
             ticketMedio = totalEstoque / somatoriaItens;
         }
     }
-    console.log("Valor do ticket médio de produtos da empresa é R$ "+ticketMedio);
+    console.log("Valor do ticket médio dos produtos da empresa é "+ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio11(){
@@ -1235,7 +1233,15 @@ function exercicio11(){
             }
         }
     }
-console.log(listaDeptos);
+    console.log("Somatória de itens do departamento "+listaDeptos[0].nomeDepto+" é "+listaDeptos[0].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[2].nomeDepto+" é "+listaDeptos[2].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[3].nomeDepto+" é "+listaDeptos[3].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[4].nomeDepto+" é "+listaDeptos[4].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[5].nomeDepto+" é "+listaDeptos[5].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[6].nomeDepto+" é "+listaDeptos[6].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[7].nomeDepto+" é "+listaDeptos[7].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[8].nomeDepto+" é "+listaDeptos[8].somatoriaItens);
+    console.log("Somatória de itens do departamento "+listaDeptos[1].nomeDepto+" é "+listaDeptos[1].somatoriaItens);
 }
 
 function exercicio12(){
@@ -1270,8 +1276,15 @@ function exercicio12(){
     for (j=0; j<listaDeptos.length; j++){
         listaDeptos[j].totalInventario += listaDeptos[j].valorTotal * listaDeptos[j].somatoriaItens;
     }
-
-    console.log(listaDeptos);
+    console.log("Valor total do inventário do departamento "+listaDeptos[0].nomeDepto+" é "+listaDeptos[0].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[1].nomeDepto+" é "+listaDeptos[1].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[2].nomeDepto+" é "+listaDeptos[2].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[3].nomeDepto+" é "+listaDeptos[3].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[4].nomeDepto+" é "+listaDeptos[4].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[5].nomeDepto+" é "+listaDeptos[5].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[6].nomeDepto+" é "+listaDeptos[6].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[7].nomeDepto+" é "+listaDeptos[7].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Valor total do inventário do departamento "+listaDeptos[8].nomeDepto+" é "+listaDeptos[8].totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio13(){
@@ -1306,14 +1319,19 @@ function exercicio13(){
     for (j=0; j<listaDeptos.length; j++){
         listaDeptos[j].ticketMedio = listaDeptos[j].totalEstoque / listaDeptos[j].somatoriaItens;
     }
-
-    console.log(listaDeptos);
+    console.log("Ticket médio do departamento "+listaDeptos[1].nomeDepto+" é "+listaDeptos[1].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[0].nomeDepto+" é "+listaDeptos[0].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[2].nomeDepto+" é "+listaDeptos[2].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[3].nomeDepto+" é "+listaDeptos[3].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[5].nomeDepto+" é "+listaDeptos[5].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[6].nomeDepto+" é "+listaDeptos[6].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[4].nomeDepto+" é  "+listaDeptos[4].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[7].nomeDepto+" é "+listaDeptos[7].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
+    console.log("Ticket médio do departamento "+listaDeptos[8].nomeDepto+" é "+listaDeptos[8].ticketMedio.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio14(){
-    //Departamento mais valioso (qual o departamento que tem a maior somatória dos valores dos itens - Considere todos os departamentos)
     var listaDeptos = [];
-    var listaDeptos1 = [];
     let codDepto = 0;
     for (i=0;i<listaProdutos.length; i++){
         let produto = listaProdutos[i];
@@ -1325,13 +1343,7 @@ function exercicio14(){
                 valorTotal: 0,
                 totalInventario: 0
             };
-            let deptoMaisValioso = {
-                nomeDepto: produto.departamento.nomeDepto,
-                idDepto: produto.departamento.idDepto,
-                inventario: 0
-            };
             listaDeptos.push(itemLista);
-            listaDeptos1.push(deptoMaisValioso);
             codDepto = produto.departamento.idDepto;
         }
     }
@@ -1346,17 +1358,52 @@ function exercicio14(){
             }
         }
     }
-
-    for (j=0; j<listaDeptos.length; j++){
-        listaDeptos[j].totalInventario += listaDeptos[j].valorTotal * listaDeptos[j].somatoriaItens;
-        console.log(listaDeptos[j].totalInventario);
-        if (listaDeptos[j].totalInventario < listaDeptos1[j].inventario){
-            listaDeptos1[j].inventario = listaDeptos[j].totalInventario;
+        let deptoMaisValioso = {totalInventario: 0}
+        for (j=0; j<listaDeptos.length; j++){
+            listaDeptos[j].totalInventario += listaDeptos[j].valorTotal * listaDeptos[j].somatoriaItens;
+            if (deptoMaisValioso.totalInventario < listaDeptos[j].totalInventario){
+                deptoMaisValioso = listaDeptos[j];
+            }
         }
-    }
-    console.log(listaDeptos1);
+    console.log("Departamento mais valioso é "+deptoMaisValioso.nomeDepto+", somando "+deptoMaisValioso.totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
 
 function exercicio15(){
+    var listaDeptos = [];
+    let codDepto = 0;
+    for (i=0;i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.departamento.idDepto != codDepto){
+            let itemLista = {
+                nomeDepto: produto.departamento.nomeDepto,
+                idDepto: produto.departamento.idDepto,
+                somatoriaItens: 0,
+                valorTotal: 0,
+                totalInventario: 0
+            };
+            listaDeptos.push(itemLista);
+            codDepto = produto.departamento.idDepto;
+        }
+    }
     
+    for (i=0; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        for (j=0; j<listaDeptos.length; j++){
+            if (produto.departamento.idDepto == listaDeptos[j].idDepto){
+                listaDeptos[j].valorTotal += produto.preco;
+                listaDeptos[j].somatoriaItens += produto.qtdEstoque;
+                break;
+            }
+        }
+    }
+        let deptoMenosValioso = {totalInventario: 0}
+        for (j=0; j<listaDeptos.length; j++){
+            listaDeptos[j].totalInventario += listaDeptos[j].valorTotal * listaDeptos[j].somatoriaItens;
+            if (deptoMenosValioso.totalInventario == 0){
+            deptoMenosValioso = listaDeptos[j];}
+            else if (listaDeptos[j].totalInventario < deptoMenosValioso.totalInventario){
+                deptoMenosValioso = listaDeptos[j];
+            }
+        }
+    console.log("Departamento menos valioso é "+deptoMenosValioso.nomeDepto+", somando "+deptoMenosValioso.totalInventario.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}));
 }
