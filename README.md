@@ -41,7 +41,7 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 
 ## :green_heart: Desenvolvedores
 
-[<img src="" width=115> <br> <sub>Isabella Cammerer</sub>]() | [<img src="https://avatars.githubusercontent.com/u/78106596?v=4" width=115> <br> <sub>Tamires Paula</sub>](https://github.com/tspaulameneses) |
+[<img src="https://avatars.githubusercontent.com/u/90530935?v=4" width=115> <br> <sub>Isabella Cammerer</sub>](https://github.com/isacammerer) | [<img src="https://avatars.githubusercontent.com/u/78106596?v=4" width=115> <br> <sub>Tamires Paula</sub>](https://github.com/tspaulameneses) |
 | :---: | :---: |
 
 ## :rocket: Tecnologias
@@ -51,7 +51,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## :arrow_forward: Executando o projeto
-1. Pelo console do navegador, abrindo o arquivo ``index.html`` OU pelo CMD abra a pasta ``desafio-2`` e execute o Node.js e abra o arquivo javascript:
+1. Pelo console do navegador, abra o arquivo ``index.html`` OU pelo CMD abra a pasta ``desafio-2``, execute o Node.js e abra o arquivo javascript:
 ```
 > node
 > .load solucao.js
