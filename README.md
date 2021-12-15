@@ -41,8 +41,8 @@ Definir algumas regras e funcionalidades de negócio para um site de catálogo d
 
 ## :green_heart: Desenvolvedores
 
-[<img src="https://avatars.githubusercontent.com/u/90530935?v=4" width=115> <br> <sub>Isabella Cammerer</sub>](https://github.com/isacammerer) | [<img src="https://avatars.githubusercontent.com/u/78106596?v=4" width=115> <br> <sub>Tamires Paula</sub>](https://github.com/tspaulameneses) |
-| :---: | :---: |
+[<img src="https://avatars.githubusercontent.com/u/69371906?v=4" width=115> <br> <sub>Priscilla Pinheiro</sub>](https://github.com/scillapinheiro) | [<img src="https://avatars.githubusercontent.com/u/90530935?v=4" width=115> <br> <sub>Isabella Cammerer</sub>](https://github.com/isacammerer) | [<img src="https://avatars.githubusercontent.com/u/78106596?v=4" width=115> <br> <sub>Tamires Paula</sub>](https://github.com/tspaulameneses) |
+| :---: | :---: | :---: |
 
 ## :rocket: Tecnologias
 
